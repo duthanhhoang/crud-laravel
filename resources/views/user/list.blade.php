@@ -5,7 +5,7 @@
         <thead>
         <tr>
             <th scope="col">ID</th>
-            <th scope="col">Name</th>
+            <th scope="col">Name <a href="?name-sort=asc"><i class="fa-solid fa-arrow-up"></i></a> <a href="?name-sort=desc"><i class="fa-solid fa-arrow-down"></i></a></th>
             <th scope="col">Email</th>
             <th scope="col">Password</th>
         </tr>

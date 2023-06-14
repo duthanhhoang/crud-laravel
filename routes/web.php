@@ -69,3 +69,4 @@ Route::post('/users/{id}/update',function (Request $request, $id){
     $user->save();
     return redirect()->route('user.index');
 })->name('user.update');
+
